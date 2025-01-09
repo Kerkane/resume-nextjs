@@ -11,34 +11,25 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Tux Linux Penguin',
-    small: '(Tux)',
+    title: 'Kyutae Kong',
+    small: '()',
   },
   contact: [
     {
-      title: 'tux@linux.org',
-      link: 'mailto:tux@linux.org',
+      title: 'ogrim123@gmail.com',
+      link: 'mailto:ogrim123@gmail.com',
       icon: faEnvelope,
     },
     {
-      title: 'Please contact me by email',
+      title: '이력서에는 전화번호를 기재하지 않았습니다. 이메일로 연락 부탁드립니다.',
       icon: faPhone,
       badge: true,
     },
     {
-      link: 'https://github.com/uyu423/resume-nextjs',
+      link: 'https://github.com/Kerkane',
       icon: faGithub,
     },
-    {
-      link: 'https://www.facebook.com/groups/ubuntu.ko',
-      icon: faFacebook,
-    },
   ],
-  notice: {
-    title:
-      "The content below is all fictitious and is just a sample from 'https://github.com/uyu423/resume-nextjs'.",
-    icon: faBell,
-  },
 };
 
 export default profile;
