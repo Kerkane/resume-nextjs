@@ -19,7 +19,7 @@ const programmingLanguages: ISkill.Skill = {
 };
 
 const virtualization: ISkill.Skill = {
-  category: 'Virtualization',
+  category: 'Container',
   items: [
     {
       title: 'Docker',
