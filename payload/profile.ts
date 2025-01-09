@@ -1,8 +1,9 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
+import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
-import image from '../asset/sample_tux.png';
+import image from '../asset/sample_tux.jpg';
 
 const profile: IProfile.Payload = {
   disable: false,
@@ -29,6 +30,10 @@ const profile: IProfile.Payload = {
       icon: faGithub,
     },
   ],
+  notice: {
+    title: '20185009 Kyutae Kong',
+    icon: faBell,
+  },
 };
 
 export default profile;
