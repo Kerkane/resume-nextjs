@@ -30,10 +30,7 @@ const virtualization: ISkill.Skill = {
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [
-    programmingLanguages,
-    virtualization
-  ],
+  skills: [programmingLanguages, virtualization],
   tooltip: '1: 기초 수준\n2: 취미 개발 수준',
 };
 
